@@ -5,7 +5,7 @@ function calcular(){
 
     let num1 = Number(camp1.value)
     let num2 = Number(camp2.value)
-    let resp = num1 * num2;
-    resul.innerText = ` ${num1} x ${num2} = ${resp}`
+    let resp = num1 + num2;
+    resul.innerText = ` ${num1} + ${num2} = ${resp}`
 
   }

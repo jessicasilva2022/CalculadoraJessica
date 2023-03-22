@@ -1,10 +1,8 @@
 body {
     background: rgb(14, 206, 174);
-    width: auto;
-    height: auto;
 }
 h1 {
-    border: solid rosybrown 5px;
+    border: solid rosybrown 1px;
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align:center;
@@ -12,14 +10,14 @@ h1 {
 }
 
 .operacao {
-    color: gold;
+    color: rgb(28, 24, 1);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font: 10pt;
-    text-align: left;
+    font: 20pt;
+    text-align: center;
 }
 
 form {
-    border: solid rosybrown 5px;
+    border: solid rosybrown 1px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -36,7 +34,6 @@ input{
 }
 
 #resul {
-    border: solid salmon 5px;
     font: normal 8pt;
     align-items: center;
     margin-top: 5px;
