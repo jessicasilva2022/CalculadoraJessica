@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Brincando de calculadora</title>
+
+</head>
+<body>
+
+    <section class="container text-center">
+        <h1>Calculadora</h1>
+        <form>
+             <div class="operacao">
+                <label for="operacoes">Escolha a operação matemática:</label>
+                <select name="operacoes" id="operacoes" >
+                    <option value="soma" id="somar">somar</option>
+                    <option value="subtração" id="subtrair">subtrair</option>
+                    <option value="multiplicação" id="multiplicar">multiplicar</option> 
+                    <option value="divisão" id="dividir">dividir</option>
+                </select>
+            </div>
+        </form>
+
+        <form class="col">
+                <div class="flex-container">
+                    <input type="number" name="numero1" id="numero1">                    
+                        <div class="flex-container">
+                            <input type="number" name="numero2" id="numero2">
+                                 <div class="flex-container"> 
+                                        <input type="button" value="calcular" onclick="calcular()"> 
+                                </div>
+                         </div>           
+                </div>            
+        </form>
+                        <div id="resul">Resp:
+
+    </section>
+    <script src="calculadorabyJessyselect.js"></script>
+
+</body>
+</html>

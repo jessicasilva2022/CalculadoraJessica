@@ -1,0 +1,45 @@
+body {
+    background: rgb(14, 206, 174);
+    width: auto;
+    height: auto;
+}
+h1 {
+    border: solid rosybrown 5px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    color: gold;
+}
+
+.operacao {
+    color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: 10pt;
+    text-align: left;
+}
+
+form {
+    border: solid rosybrown 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+input{
+    width: 75%;
+    padding: 5px 5px;
+    margin: 8px 10px;
+    box-sizing: content-box;
+    align-content: center; 
+}
+
+#resul {
+    border: solid salmon 5px;
+    font: normal 8pt;
+    align-items: center;
+    margin-top: 5px;
+    padding: 3px;
+    justify-content: center;
+}
