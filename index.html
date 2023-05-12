@@ -9,35 +9,29 @@
 
 </head>
 <body>
-
-    <section class="container text-center">
-        <h1>Calculadora</h1>
+    <h1>Calculadora</h1>
         <form>
-             <div class="operacao">
-                <label for="operacoes">Escolha a operação matemática:</label>
-                <select name="operacoes" id="operacoes" >
-                    <option value="soma" id="somar">somar</option>
-                    <option value="subtração" id="subtrair">subtrair</option>
-                    <option value="multiplicação" id="multiplicar">multiplicar</option> 
-                    <option value="divisão" id="dividir">dividir</option>
+            <label for="operacoes">Escolha a operação matemática:</label>
+                <select id="selecao">
+                    <option value="+" id="somar">+</option>
+                    <option value="-" id="subtrair">-</option>
+                    <option value="x" id="multiplicar">x</option>
+                    <option value="/" id="dividir">/</option>
                 </select>
-            </div>
         </form>
-
         <form class="col">
                 <div class="flex-container">
                     <input type="number" name="numero1" id="numero1">                    
                         <div class="flex-container">
                             <input type="number" name="numero2" id="numero2">
                                  <div class="flex-container"> 
-                                        <input type="button" value="calcular" onclick="calcular()"> 
+                                    <input type="button" value="calcular" id="calculo" onclick="calcular()"> 
+                                        <div id="resul">
                                 </div>
                          </div>           
                 </div>            
         </form>
-                        <div id="resul">Resp:
 
-    </section>
     <script src="calculadorabyJess.js"></script>
 
 </body>

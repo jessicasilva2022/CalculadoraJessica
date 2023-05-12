@@ -1,11 +1,25 @@
+const { string } = require("yargs");
+
 function calcular(){
-    let camp1 = window.document.getElementById('numero1')
-    let camp2 = window.document.getElementById('numero2')
-    let resul = window.document.getElementById('resul')
+    let camp1 = document.getElementById('numero1').value
+    let camp2 = document.getElementById('numero2').value
+    let resul = document.getElementById('resul');
+    let select = document.querySelector('#selecao');
+    let operacao = select.options[select.selectedIndex].value;
 
-    let num1 = Number(camp1.value)
-    let num2 = Number(camp2.value)
-    let resp = num1 * num2;
-    resul.innerText = ` ${num1} x ${num2} = ${resp}`
 
+    if(camp1.length == 0 && camp2.length == 0)
+      window.alert('Informe um numero nos espaços')
+      let n1 = Number(camp1)
+      let n2 = Number(camp2)
+     
+    if (operacao == "+") {
+      window.alert(`${n1+n2}`)
+      } else if (operacao == "-"){
+        window.alert(`${n1-n2}`)
+      } else if (operacao == "x"){
+        window.alert (`${n1*n2}`) 
+      } else if (operacao == "/"){
+        window.alert (`${n1/n2}`)
+      }
   }
