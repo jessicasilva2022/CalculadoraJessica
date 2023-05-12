@@ -12,8 +12,11 @@
     <h1>Calculadora</h1>
         <form>
             <label for="operacoes">Escolha a operação matemática:</label>
-                <select name="operacoes" id="operacoes" >
-                    <option value="soma" id="somar">somar</option>
+                <select id="selecao">
+                    <option value="+" id="somar">+</option>
+                    <option value="-" id="subtrair">-</option>
+                    <option value="x" id="multiplicar">x</option>
+                    <option value="/" id="dividir">/</option>
                 </select>
         </form>
         <form class="col">
@@ -22,7 +25,7 @@
                         <div class="flex-container">
                             <input type="number" name="numero2" id="numero2">
                                  <div class="flex-container"> 
-                                    <input type="button" value="calcular" onclick="calcular()"> 
+                                    <input type="button" value="calcular" id="calculo" onclick="calcular()"> 
                                         <div id="resul">
                                 </div>
                          </div>           

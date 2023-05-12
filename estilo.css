@@ -2,7 +2,7 @@ body {
     background: rgb(14, 206, 174);
 }
 h1 {
-    border: solid rosybrown 1px;
+    border: solid rosybrown 1px none;
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align:center;
@@ -17,7 +17,7 @@ h1 {
 }
 
 form {
-    border: solid rosybrown 1px;
+    border: solid rosybrown 1px none;
     display: flex;
     justify-content: center;
     align-content: center;
